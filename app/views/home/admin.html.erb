@@ -1,0 +1,24 @@
+<div id="summary">
+<h1> Summary of Guests </h1>
+
+<h2> <%= @coming %> guests are coming and they are bringing <%= @invitee %> or more friends </h2>
+<h3> <%= @coming + @invitee %> (or more) people are coming in total </h3>
+
+<br>
+
+<ul> 
+<% @guests.each do |guest| %> 
+
+<li> <%= guest.name %> is <% if guest.attend %> 
+coming 
+<% else %>
+not coming 
+<% end %>
+<% if guest.invites && guest.attend %>
+and is bringing <%= guest.invites %> <% end %>
+
+<% end %>
+</li>
+</ul>
+
+</div>
