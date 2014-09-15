@@ -9,12 +9,12 @@
 
         @font-face{
         	 font-family: 'littlefd';
-                  src: url('fonts/Gotham-medium.ttf') format('truetype');
+                  src: url('/fonts/Gotham-medium.ttf') format('truetype');
 
         }
         @font-face{
         	 font-family: 'rsvpfont';
-                  src: url('fonts/Didot.ttf') format('truetype');
+                  src: url('/fonts/Didot.ttf') format('truetype');
         }
         html { 
         	 font-family: 'rsvpfont';

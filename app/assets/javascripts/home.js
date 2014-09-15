@@ -26,6 +26,10 @@ $(document).on('ready page:load', function(){
 
         });
         
+        $("#footer").on('click', function(){
+
+          window.location.assign('http://hsin.cool')
+        });
 
 
 
