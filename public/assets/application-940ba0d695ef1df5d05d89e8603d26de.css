@@ -1,0 +1,154 @@
+        html,body
+            {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                overflow-x: hidden; 
+            }
+
+        @font-face{
+        	 font-family: 'littlefd';
+                  src: url('/fonts/Gotham-medium.ttf') format('truetype');
+
+        }
+        @font-face{
+        	 font-family: 'rsvpfont';
+                  src: url('/fonts/Didot.ttf') format('truetype');
+        }
+        html { 
+        	 font-family: 'rsvpfont';
+        	 font-size: 3.5vw;
+            background: url(/MJ.jpg) no-repeat; 
+            	-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+
+        }
+        #footer{
+        	
+        	position: absolute;
+        	top:191vw;
+        	left:62%;
+        	width:8%;
+        	height:7vw; 
+        	
+        }
+        #footer:hover{
+        	cursor: pointer;
+        }
+        #submit{
+        	position:relative;
+        	left:42%;
+        	top:13vw;
+        	width:9vw;
+        }
+        #submit:hover{
+        	cursor: pointer;
+        }
+        #rsvp{
+        	position: absolute;
+        	top:142vw;
+        	left:13%;
+        	
+        	width:77%;
+        	height:42vw;
+        }
+        #option{
+        	font-size: 2vw;
+        	color:white;
+        	background-color: black;
+        	width:35%;
+        	line-height:4vw;
+        	font-family: 'littlefd';
+        	text-align: center;
+        	position:relative;
+        	left:17%;
+        	top:13%;
+        }
+        #option:hover{
+        	cursor: pointer;
+        }
+        .rsvp_input{
+        	border:none;
+        	border-bottom: solid 1px;
+        	width:60%;
+        	line-height: 3vw;
+        	font-family: 'rsvpfont';
+        	font-size: 3.5vw;
+        	text-align: center;
+
+        }
+        .rsvp_input:focus{
+        	outline:none;
+
+        }
+        #input1{
+        	background-color: rgb(247,247,247);
+
+        }
+        #input2{
+        	margin-top: 2vw;
+        }
+        #block1{
+        	position:relative;
+        	left:17%;
+        	top:8%;
+            width:82%;
+        }
+        #block2{
+        	position:relative;
+        	left:55%;
+        	top:4%;
+            width:30%;
+        }
+        #block3{
+        	position:relative;
+        	left:17%;
+        	top:15%;
+            width:80%;
+        }
+        ::-webkit-input-placeholder {
+			   font-size: 3.5vw;
+			   text-align: center;
+			   font-family: 'rsvpfont';
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+			   font-size: 3.5vw;
+			   text-align: center;
+			   font-family: 'rsvpfont';  
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+			   font-size: 3.5vw;
+			   text-align: center;
+			   font-family: 'rsvpfont';  
+			}
+
+			:-ms-input-placeholder {  
+			   font-size: 2vw;
+			   text-align: center;
+			   font-family: 'rsvpfont';  
+			}
+
+        #summary{
+            background-color: rgba(255,255,255,0.7);
+        }
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
