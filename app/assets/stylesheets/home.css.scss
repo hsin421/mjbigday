@@ -1,16 +1,22 @@
+        html,body
+            {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                overflow-x: hidden; 
+            }
 
-
-
-		@font-face{
+        @font-face{
         	 font-family: 'littlefd';
-                  src: url('/fonts/Gotham-medium.ttf') format('truetype');
+                  src: url('fonts/Gotham-medium.ttf') format('truetype');
 
         }
         @font-face{
         	 font-family: 'rsvpfont';
-                  src: url('/fonts/Didot.ttf') format('truetype');
+                  src: url('fonts/Didot.ttf') format('truetype');
         }
-        body { 
+        html { 
         	 font-family: 'rsvpfont';
         	 font-size: 3.5vw;
             background: url(/MJ.jpg) no-repeat; 
@@ -18,6 +24,7 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				background-size: cover;
+
         }
         #footer{
         	
@@ -35,7 +42,7 @@
         	position:relative;
         	left:42%;
         	top:13vw;
-        	width:10vw;
+        	width:9vw;
         }
         #submit:hover{
         	cursor: pointer;
@@ -58,7 +65,7 @@
         	text-align: center;
         	position:relative;
         	left:17%;
-        	top:15%;
+        	top:13%;
         }
         #option:hover{
         	cursor: pointer;
@@ -66,7 +73,7 @@
         .rsvp_input{
         	border:none;
         	border-bottom: solid 1px;
-        	width:50%;
+        	width:60%;
         	line-height: 3vw;
         	font-family: 'rsvpfont';
         	font-size: 3.5vw;
@@ -88,16 +95,19 @@
         	position:relative;
         	left:17%;
         	top:8%;
+            width:82%;
         }
         #block2{
         	position:relative;
         	left:55%;
         	top:4%;
+            width:30%;
         }
         #block3{
         	position:relative;
         	left:17%;
         	top:15%;
+            width:80%;
         }
         ::-webkit-input-placeholder {
 			   font-size: 3.5vw;
@@ -123,7 +133,6 @@
 			   font-family: 'rsvpfont';  
 			}
 
-            #summary{
-                background-color: white;
-            }
-        
+        #summary{
+            background-color: rgba(255,255,255,0.7);
+        }
