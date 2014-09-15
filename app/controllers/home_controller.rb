@@ -22,7 +22,7 @@ class HomeController < ApplicationController
     @guests.each do |guest|
     	if guest.attend
     		@coming += 1
-    		if guest.invites
+    		if guest.invites != ""
     			@invitee += 1
     		end
     	end

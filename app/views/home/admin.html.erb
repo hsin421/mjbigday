@@ -14,7 +14,7 @@ coming
 <% else %>
 not coming 
 <% end %>
-<% if guest.invites && guest.attend %>
+<% if guest.invites != "" && guest.attend %>
 and is bringing <%= guest.invites %> <% end %>
 
 <% end %>
