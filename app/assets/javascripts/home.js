@@ -31,6 +31,14 @@ $(document).on('ready page:load', function(){
           window.location.assign('http://hsin.cool')
         });
 
+        //causeRepaintsOn = $("#rsvp, #option, #block3, #block2, #block1, #submit");
+
+        $(window).resize(function() {
+          // setTimeout(function(){
+            location.reload();
+          // },100);
+          });
+
 
 
     })
